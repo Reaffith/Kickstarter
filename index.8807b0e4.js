@@ -1,0 +1,3 @@
+var e=1,t=document.querySelector(".slider-item1"),c=document.querySelector(".slider-item2"),i=document.querySelector(".slider-item3"),n=document.querySelector(".section5__content--switcher--next"),s=document.querySelector(".section5__content--switcher--prev"),o=document.querySelector(".section5__content--switcher--count--current");function r(){o.textContent=e}function d(){t.classList.remove("active"),c.classList.remove("active"),i.classList.remove("active"),1===e?t.classList.add("active"):2===e?c.classList.add("active"):i.classList.add("active")}//# sourceMappingURL=index.8807b0e4.js.map
+r(),d(),n.addEventListener("click",function(){(e+=1)>3&&(e=1),r(),d()}),s.addEventListener("click",function(){(e-=1)<1&&(e=3),r(),d()});
+//# sourceMappingURL=index.8807b0e4.js.map
